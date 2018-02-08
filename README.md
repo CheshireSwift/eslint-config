@@ -1,1 +1,1 @@
-# personal-project-eslint-config
+# Personal Project eslint-config
