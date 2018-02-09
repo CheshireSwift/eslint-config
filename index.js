@@ -1,21 +1,24 @@
 module.exports = {
   'env': {
     'es6': true,
-    'node': true
+    'node': true,
   },
   'extends': 'eslint:recommended',
   'parserOptions': {
+    'ecmaVersion': 2017,
     'ecmaFeatures': {
       'experimentalObjectRestSpread': true,
-      'jsx': true
+      'jsx': true,
     },
-    'sourceType': 'module'
+    'sourceType': 'module',
   },
   'plugins': [ 'react' ],
   'rules': {
     'indent': [ 'error', 2 ],
     'linebreak-style': [ 'error', 'unix' ],
     'quotes': [ 'error', 'single' ],
-    'semi': [ 'error', 'never' ]
-  }
+    'semi': [ 'error', 'never' ],
+    'object-curly-spacing': [ 'error', 'always' ],
+    'comma-dangle': [ 'error', 'always-multiline' ],
+  },
 }
