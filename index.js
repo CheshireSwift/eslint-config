@@ -18,7 +18,7 @@ module.exports = {
     'comma-spacing': [ 'error', { before: false, after: true } ],
     'comma-style': [ 'error', 'last' ],
     'func-call-spacing': [ 'error', 'never' ],
-    'indent': [ 'error', 2 ],
+    'indent': [ 'error', 2, { SwitchCase: 1 } ],
     'key-spacing': 'error',
     'keyword-spacing': [ 'error', { before: true, after: true } ],
     'linebreak-style': [ 'error', 'unix' ],
