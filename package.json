@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-cheshireswift",
-  "version": "5.0.0",
+  "version": "5.2.0",
   "description": "CheshireSwift's ESLint config",
   "main": "index.js",
   "scripts": {
     "test": "ava",
     "lint:fix": "eslint --fix",
-    "gogogo": "npm test && git fleece && npm publish"
+    "gogogo": "git add -A && git commit; npm test && git fleece && npm publish"
   },
   "author": "",
   "license": "unlicense",

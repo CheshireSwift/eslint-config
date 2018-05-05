@@ -22,6 +22,7 @@ module.exports = {
     'key-spacing': 'error',
     'keyword-spacing': [ 'error', { before: true, after: true } ],
     'linebreak-style': [ 'error', 'unix' ],
+    'no-multiple-empty-lines': [ 'warn', { max: 1, maxBOF: 0, maxEOF: 0 } ],
     'no-trailing-spaces': 'error',
     'no-whitespace-before-property': 'error',
     'object-curly-spacing': [ 'error', 'always' ],
