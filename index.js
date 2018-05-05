@@ -12,7 +12,6 @@ module.exports = {
     },
     'sourceType': 'module',
   },
-  'plugins': [ 'react' ],
   'rules': {
     'array-bracket-spacing': [ 'error', 'always', { } ],
     'comma-dangle': [ 'error', 'always-multiline' ],
