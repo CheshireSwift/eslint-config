@@ -20,7 +20,7 @@
   "homepage": "https://github.com/CheshireSwift/eslint-config#readme",
   "devDependencies": {
     "ava": "^1.0.0-beta.1",
-    "eslint": "^4.17.0",
+    "eslint": "^5.6.0",
     "eslint-plugin-react": "^7.6.1"
   }
 }
